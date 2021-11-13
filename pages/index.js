@@ -19,7 +19,7 @@ const Index= ()=> (
                         <h3>Fullstack Developer</h3>
                         <p> Responsable, ético y autodidacta.</p>
                         <Link href="Kevin López Meza cv.pdf">
-                        <button type="button" class="btn btn-primary">Hoja de vida</button>
+                        <button type="button" class="btn btn-primary">CV</button>
                         </Link>
                     </div>
                 </div>
@@ -66,12 +66,12 @@ const Index= ()=> (
                     <li>
                             <h3>CyberSiquirres</h3>
                             <h5>Septiembre 2016 hasta Noviembre 2016</h5>
-                            <p>Auxiliar Técnico en computadoras</p>
+                            <p>Auxiliar Técnico en computadoras.</p>
                         </li>
                         <li>
                             <h3>Akon Servicentro</h3>
                             <h5>23-Marzo del 2021 hasta el 15 de noviembre</h5>
-                            <p>Pistero</p>
+                            <p>Pistero.</p>
                         </li>
 
                     </ul>

@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
-import Head from "next/head";
-
+import Footbar from "./footer";
 const layout = ({children}) => (
 
 <>
@@ -14,12 +13,8 @@ const layout = ({children}) => (
 
 
 {/* idea por Fazt code */}
-<footer className="bg-dark text-light text-center">
-    <div className="container p-4">
-        <h3>&copy; Ing:Kevin López Meza</h3>
-        
-    </div>
-</footer>
+
+<Footbar/>
 
 </>
 
