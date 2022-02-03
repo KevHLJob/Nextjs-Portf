@@ -25,7 +25,7 @@ const navbar= () => (
         </li>
        
         <li class="nav-item">
-            <Link href="/Github">
+            <Link href="https://github.com/kevHLJob">
             <a class="nav-link" >Github</a>
             </Link>
          
@@ -40,5 +40,5 @@ const navbar= () => (
 
 
 )
-
+//npm run dev
 export default navbar;

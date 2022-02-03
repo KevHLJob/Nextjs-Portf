@@ -16,9 +16,9 @@ const Index= ()=> (
                     </div>
                     <div className="col-md-8 ">
                         <h1>Kevin López Meza</h1>
-                        <h3>Fullstack Developer</h3>
+                        <h3>Ingeniero en sistemas Informáticos</h3>
                         <p> Responsable, ético y autodidacta.</p>
-                        <Link href="Kevin López Meza cv.pdf">
+                        <Link href="Kevin López MezaCV.pdf">
                         <button type="button" class="btn btn-primary">CV</button>
                         </Link>
                     </div>
@@ -52,6 +52,10 @@ const Index= ()=> (
                         <li>
                          <h5>C#</h5>
                         </li>
+                        <li>
+                         <h5>Vue.js</h5>
+                        </li>
+                        
                     </ul>
                    
                     
@@ -70,7 +74,7 @@ const Index= ()=> (
                         </li>
                         <li>
                             <h3>Akon Servicentro</h3>
-                            <h5>23-Marzo del 2021 hasta el 15 de noviembre</h5>
+                            <h5>Marzo del 2021 hasta Noviembre del 2021</h5>
                             <p>Pistero.</p>
                         </li>
 
@@ -95,7 +99,9 @@ const Index= ()=> (
                             </div>
                                 <div className="card-body">
                                     <h5>Api de Criptomonedas</h5>
-                                    <p>Descripción</p>
+                                    <Link href="https://criptoapp77.netlify.app/">
+                                        <a>Ver proyecto</a>
+                                    </Link>
 
                                 </div>
                         </div>
@@ -107,8 +113,11 @@ const Index= ()=> (
                             <img src="/2.png" alt="" className="card-img-top" />
                             </div>
                                 <div className="card-body">
-                                    <h5>Web de servicios profesionales</h5>
-                                    <p>Descripción</p>
+                                    <h5>Consulta Covid API</h5>
+                                    <Link href="https://covid-api-777.netlify.app/">
+                                        <a>Ver proyecto</a>
+                                    </Link>
+                                    
 
                                 </div>
                         </div>
@@ -120,8 +129,11 @@ const Index= ()=> (
                             <img src="/3.png" alt="" className="card-img-top" />
                             </div>
                                 <div className="card-body">
-                                    <h5>Aplicación de inventario</h5>
-                                    <p>Descripción</p>
+                                    <h5>App de tareas por hacer</h5>
+                                    <Link href="https://worklist-777.netlify.app/">
+                                    <a>Ver proyecto</a>
+                                    </Link>
+                                   
 
                                 </div>
                         </div>
