@@ -7,7 +7,7 @@ const Index= ()=> (
  <Layout>
     
     {/**Header Card */}
-    <header className= "Row">
+    <header className= "row">
         <div className="col-md-12">
             <div className="card card-body bg-light">
                 <div className="row">
@@ -17,7 +17,7 @@ const Index= ()=> (
                     <div className="col-md-8 ">
                         <h1>Kevin López Meza</h1>
                         <h3>Ingeniero en sistemas Informáticos</h3>
-                        <p> Responsable, ético y autodidacta.</p>
+                        <p> Responsable, con muchas ganas de aprender ético y autodidacta.</p>
                         <Link href="Kevin López MezaCV.pdf">
                         <button type="button" class="btn btn-primary">CV</button>
                         </Link>
@@ -90,7 +90,7 @@ const Index= ()=> (
             <div className="card card-body bg-dark">
                 <div className="row">
                     <div className="col-md-12">
-                        <h1 className="text-center text-light">Portafolio</h1>
+                        <h1 className="text-center text-light ">Portafolio</h1>
                     </div>
                     <div className="col-md-4">
                         <div className="card">
@@ -112,7 +112,7 @@ const Index= ()=> (
                         <div className="overflow">
                             <img src="/2.png" alt="" className="card-img-top" />
                             </div>
-                                <div className="card-body">
+                                <div className="card-body ">
                                     <h5>Consulta Covid API</h5>
                                     <Link href="https://covid-api-777.netlify.app/">
                                         <a>Ver proyecto</a>
