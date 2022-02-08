@@ -2,7 +2,6 @@ import Layout from '../components/layout'
 import Link from 'next/link';
 
 
-
 const Index= ()=> (
  <Layout>
     
@@ -90,7 +89,7 @@ const Index= ()=> (
             <div className="card card-body bg-dark">
                 <div className="row">
                     <div className="col-md-12">
-                        <h1 className="text-center text-light ">Portafolio</h1>
+                        <h1 className="text-center text-light ">Portfolio</h1>
                     </div>
                     <div className="col-md-4">
                         <div className="card">

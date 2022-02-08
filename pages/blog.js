@@ -1,19 +1,23 @@
 import Layout from "../components/layout";
 import Link from "next/link";
+
 const blog =() => (
 
 <Layout>
 <div className="text-center">
     <h1>Blog</h1>
     <div className="section-info ">
-       <h3>Un saludo, he creado este proyecto para presentar mi conocimiento en tecnologías
-           basadas en el desarrollo de software.</h3> 
-           <h3>El area de la tecnología cambia de una manera muy rapida, por lo tanto como profesionales debemos
-               de mantenernos actualizados.</h3> 
+       <h5>Un saludo, he creado este proyecto para presentar mi conocimiento en tecnologías
+           basadas en el desarrollo Web.</h5> 
+           <h5>El area de la tecnología cambia de una manera muy rápida, por lo tanto como profesionales debemos
+               de mantenernos actualizados.</h5> 
         
     </div>
-   <div className="row">
-       <div className="col-sm-100%">
+</div>
+
+<div className="container text-center">
+    <div className="row">
+       <div className="col-sm-90%">
            <div className="card card-body bg-light">
            <h2 className="text-decoration-underline">Contacto</h2>
 
@@ -29,14 +33,13 @@ const blog =() => (
                     </Link>
                     
                 </div>
-               
-
             </div>
            </div>
        </div>
    </div>
-</div>
+</div>  
 </Layout>
+
 
 
 )
