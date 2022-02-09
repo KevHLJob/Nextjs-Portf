@@ -9,7 +9,7 @@ const blog =() => (
     <div className="section-info ">
        <h5>Un saludo, he creado este proyecto para presentar mi conocimiento en tecnologías
            basadas en el desarrollo Web.</h5> 
-           <h5>El area de la tecnología cambia de una manera muy rápida, por lo tanto como profesionales debemos
+           <h5>La tecnología evoluciona de una manera muy rápida, por lo tanto como profesionales debemos
                de mantenernos actualizados.</h5> 
         
     </div>
