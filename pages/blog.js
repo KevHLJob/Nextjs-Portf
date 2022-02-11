@@ -55,7 +55,7 @@ const blog =() => (
 <div className="text-center">
 
 
-  <div id="carouselExampleFade" class="carousel slide carousel-fade py-4" data-bs-ride="carousel" style={{left: "50vh",width:"50%", height:"90%"}}>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade py-4" data-bs-ride="carousel" style={{width:"70%", height:"90%"}}>
   <div class="carousel-inner">
     <div class="carousel-item active ">
       <img src="/calcujs.png" class="d-block w-100" alt="..." />
