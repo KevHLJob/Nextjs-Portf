@@ -14,8 +14,8 @@ const Index= ()=> (
                         <img src="Kevin Lopez.jpg" alt="" className="img-fluid rounded-start"/>
                     </div>
                     <div className="col-md-8 ">
-                        <h1>Kevin López Meza</h1>
-                        <h3>Ingeniero en sistemas Informáticos</h3>
+                        <h1 className='text-center'>Kevin López Meza</h1>
+                        <h3 className='text-center'>Ingeniero en sistemas Informáticos</h3>
                         <p> Responsable, con muchas ganas de aprender ético y autodidacta.</p>
                         <Link href="Kevin López MezaCV.pdf">
                         <button type="button" class="btn btn-primary">CV</button>
@@ -33,7 +33,7 @@ const Index= ()=> (
         <div className="col-md-4">
             <div className="card bg-light">
                 <div className="card-body">
-                    <h1>Conocimiento</h1>
+                    <h1 className='text-center'>Conocimiento</h1>
 
                     <ul>
                         <li>
@@ -64,7 +64,7 @@ const Index= ()=> (
         <div className="col-md-8">
             <div className="card bg-light">
                 <div className="card-body">
-                    <h1>Experiencia</h1>
+                    <h1 className='text-center'>Experiencia</h1>
                     <ul>
                     <li>
                             <h3>CyberSiquirres</h3>
@@ -97,7 +97,7 @@ const Index= ()=> (
                             <img src="/1.png" alt="" className="card-img-top"  />
                             </div>
                                 <div className="card-body">
-                                    <h5>Api de Criptomonedas</h5>
+                                    <h5 className='text-center'>Api de Criptomonedas</h5>
                                     <Link href="https://criptoapp77.netlify.app/">
                                         <a>Ver proyecto</a>
                                     </Link>
@@ -112,7 +112,7 @@ const Index= ()=> (
                             <img src="/2.png" alt="" className="card-img-top" />
                             </div>
                                 <div className="card-body ">
-                                    <h5>Consulta Covid API</h5>
+                                    <h5 className='text-center'>Consulta Covid API</h5>
                                     <Link href="https://covid-api-777.netlify.app/">
                                         <a>Ver proyecto</a>
                                     </Link>
@@ -128,7 +128,7 @@ const Index= ()=> (
                             <img src="/3.png" alt="" className="card-img-top" />
                             </div>
                                 <div className="card-body">
-                                    <h5>App de tareas por hacer</h5>
+                                    <h5 className='text-center'>App de tareas por hacer</h5>
                                     <Link href="https://worklist-777.netlify.app/">
                                     <a>Ver proyecto</a>
                                     </Link>
