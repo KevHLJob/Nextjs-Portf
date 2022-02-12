@@ -13,9 +13,9 @@ const blog =() => (
 <div className="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
-      <img src="/css6.jpg" class="card-img-top" alt="..." style={{width: "100%", height: "60%"}}/>
+      <img src="/css6.jpg" class="card-img-top" alt="..." style={{width: "100%", height: "55%"}}/>
       <div class="card-body">
-        <h5 class="card-title">Css</h5>
+        <h5 class="card-title text-center">Css</h5>
         <p class="card-text">
         Desde CSS3, el alcance de las especificaciones se incrementó de forma significativa y
          el progreso de los diferentes modulos de CSS comenzó a mostrar varias diferencias,
@@ -27,9 +27,9 @@ const blog =() => (
   </div>
   <div class="col">
     <div class="card h-100" >
-      <img src="/4.png" class="card-img-top" alt="..." style={{width: "100%", height: "60%"}} />
+      <img src="/4.png" class="card-img-top" alt="..." style={{width: "100%", height: "55%"}} />
       <div class="card-body">
-        <h5 class="card-title placeholder-glow" >JavaScript</h5>
+        <h5 class="card-title text-center" >JavaScript</h5>
         <p class="card-text">JavaScript (JS) es un lenguaje de programación ligero, interpretado,
            o compilado justo-a-tiempo (just-in-time) con funciones de primera clase.
             Si bien es más conocido como un lenguaje de scripting (secuencias de comandos)
@@ -39,9 +39,9 @@ const blog =() => (
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="/html5.png" class="card-img-top" alt="..." style={{width: "100%", height: "60%"}} />
+      <img src="/html5.png" class="card-img-top" alt="..." style={{width: "100%", height: "55%"}} />
       <div class="card-body">
-        <h5 class="card-title">HTML5</h5>
+        <h5 class="card-title text-center">HTML5</h5>
         <p class="card-text">También se han añadido etiquetas que permiten crear animaciones en 2D,
          con una etiqueta de canvas y
           una API que permiten que puedas dibujar elementos en dos dimensiones y animarlos en la web.
@@ -89,7 +89,9 @@ const blog =() => (
     </div>
     <div class="col">
       <h3>Linkedin</h3>
-      <p>Kevin López Meza</p>
+      <Link href="https://www.linkedin.com/in/kevin-l%C3%B3pez-meza-5b3a3a213/">
+          <button type="button" class="btn btn-primary">Ver</button>
+      </Link>
     </div>
     <div class="col">
       <h3>Creado con:</h3>
