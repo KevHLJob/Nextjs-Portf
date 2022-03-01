@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const navbar= () => (
 
-
+// All navbar, sections
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
  
   <div class="container-fluid ">
