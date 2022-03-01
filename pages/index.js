@@ -84,7 +84,7 @@ const Index= ()=> (
     </div>
 
     {/**Portfolio */}
-    <div className="row">
+    <div className="row ">
         <div className="col-md-12">
             <div className="card card-body bg-dark">
                 <div className="row">
@@ -151,4 +151,4 @@ const Index= ()=> (
 
 export default Index;
 
-//npm run dev correr el servidor
+//npm run dev correr el servidor local
