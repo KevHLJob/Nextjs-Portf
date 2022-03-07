@@ -169,7 +169,7 @@ const Index = () => (
                   <h5 className="text-center">NFT Demo Store</h5>
                   <h5 className='text-center'>Creado con tecnologías: 
                  <h6 className='text-decoration-underline text-info'>HTML - Css - Javascript</h6></h5>
-                  <Link href="https://nftdiscovery.netlify.app/">
+                  <Link href="https://kevnftpage.netlify.app/">
                     <a>Ver proyecto</a>
                   </Link>
                 </div>
