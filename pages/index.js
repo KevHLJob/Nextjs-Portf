@@ -96,27 +96,31 @@ const Index = () => (
             <div className="col-md-12">
               <h1 className="text-center text-light ">Portfolio</h1>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 py-3">
               <div className="card">
                 <div className="overflow">
                   <img src="/1.png" alt="" className="card-img-top" />
                 </div>
                 <div className="card-body">
-                  <h5 className="text-center">Api de Criptomonedas</h5>
+                  <h4 className="text-center">Api de Criptomonedas</h4>    
+                 <h5 className='text-center'>Creado con tecnologías: 
+                 <h6 className='text-decoration-underline text-info'>Vue.js - CoinGecko</h6></h5>
                   <Link href="https://criptoapp77.netlify.app/">
-                    <a>Ver proyecto</a>
+                    <a className="text-center">Ver proyecto</a>
                   </Link>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 py-3">
               <div className="card">
                 <div className="overflow">
                   <img src="/2.png" alt="" className="card-img-top" />
                 </div>
                 <div className="card-body ">
                   <h5 className="text-center">Consulta Covid API</h5>
+                  <h5 className='text-center'>Creado con tecnologías: 
+                 <h6 className='text-decoration-underline text-info'>Vue.js - HTML - Css</h6></h5>
                   <Link href="https://covid-api-777.netlify.app/">
                     <a>Ver proyecto</a>
                   </Link>
@@ -124,13 +128,15 @@ const Index = () => (
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 py-3">
               <div className="card">
                 <div className="overflow">
                   <img src="/3.png" alt="" className="card-img-top" />
                 </div>
                 <div className="card-body">
                   <h5 className="text-center">App de tareas por hacer</h5>
+                  <h5 className='text-center'>Creado con tecnologías: 
+                 <h6 className='text-decoration-underline text-info'>HTML - CSS - Javascript</h6></h5>
                   <Link href="https://worklist-777.netlify.app/">
                     <a>Ver proyecto</a>
                   </Link>
@@ -145,12 +151,32 @@ const Index = () => (
                 </div>
                 <div className="card-body">
                   <h5 className="text-center">NFT Website </h5>
+                  <h5 className='text-center'>Creado con tecnologías: 
+                 <h6 className='text-decoration-underline text-info'>HTML - Css - Javascript</h6></h5>
                   <Link href="https://nftdiscovery.netlify.app/">
                     <a>Ver proyecto</a>
                   </Link>
                 </div>
               </div>
             </div>
+
+            <div className="col-md-4 py-3">
+              <div className="card">
+                <div className="overflow">
+                  <img src="/5.png" alt="" className="card-img-top" />
+                </div>
+                <div className="card-body">
+                  <h5 className="text-center">NFT Demo Store</h5>
+                  <h5 className='text-center'>Creado con tecnologías: 
+                 <h6 className='text-decoration-underline text-info'>HTML - Css - Javascript</h6></h5>
+                  <Link href="https://nftdiscovery.netlify.app/">
+                    <a>Ver proyecto</a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>
